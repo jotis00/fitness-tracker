@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: rgb(255, 246, 115);
+    font-weight: 300;
+    align-items: center;
+}
+
+#logo {
+    margin: auto;
+    color: rgb(73, 73, 73);
+}
+
+
+#mainMenuDiv {
+    background-color: #F1F1F1;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#weightHomeDiv {
+    background-color: #F1F1F1;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.weightLogButton {
+    height: 25px;
+    width: 160px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius:10px;
+    background-color: #F1F1F1;
+}
+.weightLogButton:hover {
+    cursor: pointer;
+    background-color:  rgb(169, 212, 247);
+}
+
+input[type=text] {
+    background-color: #F1F1F1;
+    height: 20px;
+    width: 220px;
+    margin-bottom: 10px;
+    outline: none; 
+    border: none;
+    border-bottom: 1px solid grey;
+    color: rgb(102, 95, 0);
+    font-size: 14px;
+    margin-left: 70px;
+}
+
+.weightFormLabel {
+    margin-left: 70px;
+}
+
+.mainMenuButton {
+    height: 40px;
+    width: 250px;
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius:10px;
+    background-color: #F1F1F1;
+}
+
+#weightFormSubmitButton {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.mainMenuButton:hover {
+    cursor: pointer;
+    background-color:  rgb(255, 246, 115);
+}
+
+
+#weightLogTableDiv {
+    background-color: #F1F1F1;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#weightHomeLabel {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 70px;
+    size: 25px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 6px;
+  }
+  thead th {
+    width: 25%;
+  }
+
+#workoutsHomeDiv {
+    background-color: #F1F1F1;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+#workoutFormSubmit {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#setNumberInput {
+    margin-left: 70px;
+}
+#workoutWeightInput {
+    margin-left: 50px;
+}
+
+#workoutListsLabel {
+    margin-bottom: 25px;
+}
+
+#displayWorkouts {
+    background-color: #F1F1F1;
+    margin-top: 85px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 10px;
+    height: 700px;
+    width: 400px;
+    align-items: center;
+    border-radius: 20px;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hide {
+    display: none;
+}

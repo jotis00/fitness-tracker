@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Juxtapose</title>
+</head>
+
+<header>
+    <nav class="header">
+       <h2 id="logo">Juxtapose</h2>
+    </nav>
+</header>
+
+<body> 
+    <br>
+    <div id="logInDiv" class="hide">
+        <h3 id="loginLabel">LOGIN</h3><br>
+        <form id="loginForm"> 
+            <label class="signInLabel">Username</label><br>
+            <input type="text" id="usernameField" autocomplete="off"/><br>
+            <label class = signInLabel>Password</label><br>
+            <input type="password" id="passwordField"><br>
+            <button id="logInButton">LOG IN</button>
+            <button id="guestButton">GUEST</button><br>
+        </form>
+
+        <div id="registerDiv">
+            <label>Not Registered? </label><button id="signUpRedirect">Sign Up</button>         
+        </div>
+    </div>
+
+    
+
+
+  
+
+
+
+
+    <div id="mainMenuDiv">
+        <label id="Jaxson"></label>
+        <button class = "mainMenuButton" id="weightLogRedirect">WEIGHT LOG</button><br>
+        <button class = "mainMenuButton" id="workoutsRedirect">WORKOUT LOG</button><br>
+        <button class = "mainMenuButton" id="groupRedirect">GROUPS</button><br>
+        <button class = "mainMenuButton" id="goalsRedirect">GOALS</button><br>
+    </div>
+
+
+
+
+  
+
+
+
+
+    <div id="weightHomeDiv" class="hide">
+        <h3 id="">ADD Entry</h3><br>
+        <form id="weightForm">
+            <button class="weightLogButton" id="weightTableButton">Table</button>
+            <button class="weightLogButton" id="weightGraphButton">Graph</button><br>
+            <label class="weightFormLabel">Weight</label><br>
+            <input type="text" id="weightFormWeight"/><br>
+            <label class = "weightFormLabel">Calories</label><br>
+            <input type="text" id="weightFormCaloriesField"/><br>
+            <label class = "weightFormLabel">Date</label><br>
+            <input type="text" id="weightFormDate" placeholder="MM/DD/YYYY"/><br>
+            <button class="weightLogButton"id="weightFormSubmitButton">SUBMIT</button><br>
+        </form>
+    </div>
+
+    <div id="weightLogTableDiv" class="hide">
+        <h3>Weight Log Table</h3>
+        <hr />
+        <div id="dvTable"></div>
+
+
+    </div>
+
+    <div id="weightGraphTableDiv" class="hide">
+        <h3>Weight Log Graph</h3>
+    </div>
+ 
+
+
+
+
+
+
+
+    
+    <div id="workoutsHomeDiv" class="hide">
+        <h3 id="workoutListsLabel">WORKOUTS</h3>
+        <form id="workoutForm">
+            <button class="weightLogButton" id="workoutTableButton">Table</button>
+            <button class="weightLogButton" id="weightGraphButton">Graph</button><br>
+            <label class = "workoutHome">Exercise Name</label>
+            <input type="text" id="workoutNameInput"/><br>
+            <label class = "workoutHome">Exercise Sets</label>
+            <input type="text" id="setNumberInput"/><br>
+            <label class = "workoutHome"> Exercise Weight</label>
+            <input type="text" id="workoutWeightInput"/><br>
+            <label class = "workoutHome">Exercise Date</label>
+            <input type="text" id="workoutDateInput" placeholder="MM/DD/YYYY"/><br>
+            <button class="weightLogButton"id="workoutFormSubmit">SUBMIT</button><br>
+    </form>
+    </div>
+
+    <div id="displayWorkouts" class="hide">
+        <h3>Workout Log Table</h3>
+        <hr />
+        <div id="dvTable1"></div>
+    </div>
+
+
+    <div id="workoutExerciseEntrys" class="hide">
+        <h3>Workoutlist Name</h3>
+        <button id="addExerciseButton">Add Exercise</button>
+        <button id="workoutShowLogButton">LOG</button>
+        <button id="deleteWorkoutListButton">DELETE</button>
+    </div>
+
+    <div id="displayWorkoutEntries" class="hide">
+        <p>displaying entries</p>
+    </div>
+
+    <div id="workoutExerciseLogTableDiv" class="hide">
+        <h3>Exercise Table</h3>
+    </div>
+
+    <div id="workoutExerciseGraphDiv" class="hide">
+        <h3>Exercise Graph</h3>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="groupHomeDiv" class="hide">
+        <h3 class="groupHomeLabel" >Groups</h3>
+        <button id="createGroupButton">CREATE GROUP</button> <br>
+        <input type="text" id="searchGroupsField" autocomplete="off"/>
+        <button id="searchGroupButton">Search</button> <br>
+    </div>
+
+    <div id="displayGroups" class="hide">
+        <p id="groupsLabel">displaying groups</p>
+    </div>
+
+    <div id="groupPostsDiv" class="hide">
+        <h3 class="groupNameLabel">POSTS</h3>
+        <button id="groupDropDownButton">...</button>
+    </div>
+
+    <div id="displayGroupPosts" class="hide">
+        <p>dipslaying posts</p>
+    </div>
+
+    <div id="groupMemberDiv" class="hide">
+        <h3 class="groupNameLabel">MEMBERS</h3>
+    </div>
+
+    <div id="displayMembersDiv" class="hide">
+        <p>displaying members</p>
+    </div>
+
+    <div id="groupLeaderboardDiv" class="hide">
+        <h3 id="groupLeaderboardLabel">Groupname Leaderboard</h3>
+        <button id="groupLBAddExerciseButton">Add Exercise</button>
+    </div>
+
+    <div id="displayGroupLeaderboardDiv" class="hide">
+        <p>displaying leaderboard exercises</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div id="goalsHomeDiv"  class="hide">
+        <form id="inputGoalForm">
+            <input type="text" id="goalField" placeholder="Enter Goal" autocomplete="off"/><br>
+            <button id="submitGoalButton">SUBMIT GOAL</button>
+        </form>
+    </div>
+
+    <div id="displayGoalsDiv" class="hide">
+        <h3 id="goalsLabel">Goals</h3>
+    </div>
+
+    <div id="displayCompletedGoalsDiv" class="hide">
+        <h3 id="completedGoalsLabel">Completed Goals</h3>
+    </div>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
